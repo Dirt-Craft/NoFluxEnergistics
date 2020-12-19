@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29751011-7ce1-4ee1-8901-a68db9b9ecf4" name="Default Changelist" comment="" />
+    <list default="true" id="29751011-7ce1-4ee1-8901-a68db9b9ecf4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/dirtcraft/plugin/nofluxenergistics/NoFluxEnergistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/dirtcraft/plugin/nofluxenergistics/NoFluxEnergistics.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="7641" />
+    <option name="totalTimeSeconds" value="7918" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -84,6 +86,9 @@
       <replace>(trans.getFinal().getState().getType().getId().startsWith(&quot;fluxnetworks&quot;) || trans.getFinal().getState().getType().getId().startsWith(&quot;projecte&quot;))</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -103,6 +108,7 @@
     <option name="height" value="722" />
   </component>
   <component name="ProjectId" id="1lpnBlomeztPIPJGiSxKJjmFV3V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -305,7 +311,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556990249577</updated>
       <workItem from="1608302772460" duration="261000" />
-      <workItem from="1608303062551" duration="6561000" />
+      <workItem from="1608303062551" duration="6826000" />
     </task>
     <servers />
   </component>

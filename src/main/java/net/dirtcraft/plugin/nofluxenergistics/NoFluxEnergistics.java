@@ -1,7 +1,6 @@
 package net.dirtcraft.plugin.nofluxenergistics;
 
 import com.google.inject.Inject;
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.spongepowered.api.block.BlockSnapshot;
 import org.spongepowered.api.block.BlockState;
