@@ -1,0 +1,17 @@
+[
+    {
+        "modid": "nofluxenergistics",
+        "name": "NoFluxEnergistics",
+        "version": "1.0.0",
+        "description": "Simple plugin to not allow configured blocks to touch each other.",
+        "authorList": [
+            "juliann"
+        ],
+        "dependencies": [
+            "spongeapi@7.2.0"
+        ],
+        "requiredMods": [
+            "spongeapi@7.2.0"
+        ]
+    }
+]
