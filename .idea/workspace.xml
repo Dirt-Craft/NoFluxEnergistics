@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29751011-7ce1-4ee1-8901-a68db9b9ecf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/dirtcraft/plugin/nofluxenergistics/NoFluxEnergistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/dirtcraft/plugin/nofluxenergistics/NoFluxEnergistics.java" afterDir="false" />
-    </list>
+    <list default="true" id="29751011-7ce1-4ee1-8901-a68db9b9ecf4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +14,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="7918" />
+    <option name="totalTimeSeconds" value="8237" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -89,6 +87,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Dirt-Craft/NoFluxEnergistics" />
+      </set>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -147,6 +152,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556990697689" />
@@ -311,7 +317,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556990249577</updated>
       <workItem from="1608302772460" duration="261000" />
-      <workItem from="1608303062551" duration="6826000" />
+      <workItem from="1608303062551" duration="7144000" />
     </task>
     <servers />
   </component>
