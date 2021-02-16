@@ -79,18 +79,21 @@ public class NoFluxEnergistics {
                         "\n&7This is to prevent severe lag and/or server crashes so please use an alternative!");
     }
 
-    private boolean isNextTo(BlockSnapshot blockSnapshot, String... itemIds) {
-        List<String> ids = Arrays.stream(itemIds).map(String::toLowerCase).collect(Collectors.toList());
+    private boolean isNextTo(BlockSnapshot blockSnapshot, String mainBlock, String... itemIds) {
+        final List<String> ids = Arrays.stream(itemIds).map(String::toLowerCase).collect(Collectors.toList());
+
+        final String mainBlockId = mainBlock.toLowerCase();
 
         BlockState block = blockSnapshot.getExtendedState();
         String blockId = block.getId().toLowerCase();
 
         boolean match = false;
         for (String id : ids)
-            if (blockId.startsWith(id)) {
+            if (blockId.startsWith(mainBlockId) || blockId.startsWith(id.toLowerCase())) {
                 match = true;
                 break;
             }
+
         if (!match) return false;
 
         Optional<Location<World>> optionalLocation = blockSnapshot.getLocation();
@@ -100,7 +103,7 @@ public class NoFluxEnergistics {
         }
         Location<World> blockLocation = optionalLocation.get();
 
-        List<Location<World>> locations = new ArrayList<>();
+        final List<Location<World>> locations = new ArrayList<>();
         for (int i = -1; i < 2; i++) {
             if (i == 0) continue;
             locations.add(blockLocation.add(i, 0, 0));
@@ -109,8 +112,10 @@ public class NoFluxEnergistics {
         }
 
         for (Location<World> location : locations) {
-            String locationId = location.getBlock().getId().toLowerCase();
-            for (String id : ids) if (!blockId.toLowerCase().startsWith(locationId.toLowerCase()) && locationId.startsWith(id)) return true;
+            String locationId = location.getBlock().getId().toLowerCase().trim();
+            for (String id : ids) if (
+                    (blockId.startsWith(mainBlockId) && locationId.startsWith(id)) ||
+                    (blockId.startsWith(id) && locationId.startsWith(mainBlockId))) return true;
         }
 
         return false;
