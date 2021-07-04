@@ -58,22 +58,4 @@ public class Blacklist {
                 new Blacklist("minecraft:hopper",                   "tp:emerald_cobblegen_block",       "&7This is to prevent severe lag and/or server crashes so please use an alternative!")
         );
     }
-
-    /*
-    private void registerDefaults(){
-        registerBlacklist("AppliedEnergistics2", "FluxNetworks");
-        registerBlacklist("AppliedEnergistics2", "ProjectE");
-        registerBlacklist("AppliedEnergistics2", "Yabba");
-        registerBlacklist("AppliedEnergistics2", "StorageDrawers");
-        registerBlacklist("AppliedEnergistics2", "industrialforegoing:black_hole");
-        registerBlacklist("bonsaitrees:bonsaipot", "thermaldynamics:duct_32");
-        registerBlacklist("randomthings:spectreenergyinjector", "draconicevolution:energy_pylon");
-        registerBlacklist("minecraft:hopper", "tp:cobblegen_block");
-        registerBlacklist("minecraft:hopper", "tp:iron_cobblegen_block");
-        registerBlacklist("minecraft:hopper", "tp:diamond_cobblegen_block");
-        registerBlacklist("minecraft:hopper", "tp:blaze_cobblegen_block");
-        registerBlacklist("minecraft:hopper", "tp:emerald_cobblegen_block");
-    }
-
-     */
 }
