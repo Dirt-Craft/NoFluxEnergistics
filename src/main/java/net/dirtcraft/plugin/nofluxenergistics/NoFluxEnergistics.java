@@ -50,7 +50,10 @@ public class NoFluxEnergistics {
 
     private static final String SPECTRE_INJECT = "randomthings:spectreenergyinjector";
     private static final String ENERGY_PYLON = "draconicevolution:energy_pylon";
-
+    
+    private static final String AA_PF = "actuallyadditions:block_phantomface";  
+    private static final String AA_PF_Fluid = "actuallyadditions:block_phantom_liquiface";  
+        
     @Inject
     private Logger logger;
 
@@ -83,6 +86,9 @@ public class NoFluxEnergistics {
         if(isNextTo(blockSnapshot, SPECTRE_INJECT, ENERGY_PYLON)) notifyPlayer(event, source,
                 "&7You &ccannot &7place &6Spectre Energy Injectors&7 next to &6Energy Pylons" +
                         "\n&7This is to prevent a major bug so please use a buffer block in between");
+        if(isNextTo(blockSnapshot, AE2, AA_PF_Fluid, AA_PF)) notifyPlayer(event, source,
+                "&7You &ccannot &7place items from &6Applied Energistics 2 &7next to &6Phantomfaces&7 " +
+                        "\n&7This is to prevent severe lag and/or server crashes so please use an alternative!");
     }
 
     private boolean isNextTo(BlockSnapshot blockSnapshot, String mainBlock, String... itemIds) {
